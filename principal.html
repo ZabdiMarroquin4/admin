@@ -1,0 +1,42 @@
+<html>
+<head>
+     <meta charset="utf-8"/>	
+	<title>Tarea</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+
+<link rel="stylesheet" type="text/css" href="diseño.css">
+
+<script>
+function comosea(){
+
+   user=document.fo.user.value
+ pass=document.fo.pass.value
+
+if(user=="admin" && pass=="conejo"){
+	alert("Los datos son correctos"); window.location=href="index.html"
+}else{
+	alert("Las claves son distintas, intente nuevamente"); 
+	window.location=href="principal.html"
+}
+}
+</script>
+<body bgcolor=purple>
+
+	<center>
+
+		<form name=fo>
+<h4>Ingrese su nombre: </h4>
+<input name="user" size="30px">
+
+<h4>Ingrese su contraseña: </h4>
+<input type="password" name="pass" size="30px">
+<br>
+<input type="button" value="Siguiente" onClick="comosea()" >
+
+</form>
+</center>
+
+
+</body>
+</html>
